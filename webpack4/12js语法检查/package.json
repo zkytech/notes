@@ -1,0 +1,14 @@
+{
+    "name": "12jslint",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "eslintConfig": {
+        "extends": "airbnb-base"
+    }
+}
