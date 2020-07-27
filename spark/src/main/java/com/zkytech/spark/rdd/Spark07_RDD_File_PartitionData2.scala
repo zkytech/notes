@@ -3,7 +3,7 @@ package com.zkytech.spark.rdd
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Spark06_RDD_File_PartitionData2 {
+object Spark07_RDD_File_PartitionData2 {
   def main(args: Array[String]): Unit = {
     val sparkConfig = new SparkConf().setMaster("local").setAppName("wordCount").set("spark.ui.port","22112")
     val sc = new SparkContext(sparkConfig)
